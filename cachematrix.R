@@ -60,8 +60,10 @@ cacheSolve <- function(x, ...) {
     ##finding inverse and storing it in "i".
     
     i <- solve(data, ...)
+    
     x$setinverse(i)
     
     ## Return a matrix "i" that is the inverse of 'x'
+    
     i
 }
